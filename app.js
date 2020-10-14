@@ -12,5 +12,5 @@ app.use('/items',itemroute);
 mongoose.connect('mongodb+srv://himu:himu@cluster0.qkmvt.mongodb.net/test?retryWrites=true&w=majority',{useNewUrlParser:true},()=>{
     console.log('db connected')
 })
-
+//opening the server
 app.listen(5000);
