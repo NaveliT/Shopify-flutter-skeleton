@@ -15,6 +15,6 @@ mongoose.connect('mongodb+srv://himu:himu@cluster0.qkmvt.mongodb.net/test?retryW
 
 
 =======
-//connecting the server
+
 
 app.listen(5000);
